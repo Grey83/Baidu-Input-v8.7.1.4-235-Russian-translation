@@ -4,33 +4,33 @@
     <Preference android:title="@string/front_game_board" android:key="@string/pref_key_game_board_setting" />
     <Preference android:title="@string/front_quick_access" android:key="@string/pref_key_floatwindow" />
     <Preference android:title="@string/noti_switcher_settings" android:key="@string/pref_key_noti_switcher_settings" baidu:canSearch="false" />
-    <CheckBoxPreference android:title="启用双拼" android:key="@string/pref_key_shuangpin" android:defaultValue="false" android:summaryOn="使用双拼模式" android:summaryOff="使用全拼模式" />
-    <PreferenceScreen android:title="管理双拼方案" android:key="@string/pref_key_shuangpin_case_root" android:dependency="@string/pref_key_shuangpin">
-        <com.baidu.input.pref.SP26Pref android:title="26键双拼方案" android:key="@string/pref_key_spdiy" />
-        <com.baidu.input.pref.SP10Pref android:title="9键双拼方案" android:key="@string/pref_key_sp10diy" />
-        <Preference android:title="编辑26键双拼方案" android:key="@string/pref_key_spedit2" />
-        <Preference android:title="编辑9键双拼方案" android:key="@string/pref_key_spedit6" />
-        <Preference android:title="导出双拼方案" android:key="@string/pref_key_expt2" />
-        <Preference android:title="导入双拼方案" android:key="@string/pref_key_impt2" />
-        <Preference android:title="恢复默认双拼方案" android:key="@string/pref_key_reset2" />
+    <CheckBoxPreference android:title="Шуанпинь" android:key="@string/pref_key_shuangpin" android:defaultValue="false" android:summaryOn="Режим Шуанпинь" android:summaryOff="Режим Пиньинь" />
+    <PreferenceScreen android:title="Настройки Шуанпинь" android:key="@string/pref_key_shuangpin_case_root" android:dependency="@string/pref_key_shuangpin">
+        <com.baidu.input.pref.SP26Pref android:title="26-клавишная схема" android:key="@string/pref_key_spdiy" />
+        <com.baidu.input.pref.SP10Pref android:title="9-клавишная схема" android:key="@string/pref_key_sp10diy" />
+        <Preference android:title="Настройка 26-кл. схемы" android:key="@string/pref_key_spedit2" />
+        <Preference android:title="Настройка 9-кл. схемы" android:key="@string/pref_key_spedit6" />
+        <Preference android:title="Экспортировать" android:key="@string/pref_key_expt2" />
+        <Preference android:title="Импортировать" android:key="@string/pref_key_impt2" />
+        <Preference android:title="Сбросить настройки" android:key="@string/pref_key_reset2" />
     </PreferenceScreen>
-    <com.baidu.input.pref.WbPref android:title="管理五笔方案" android:key="@string/pref_key_wbmode" />
-    <CheckBoxPreference android:title="五笔编码提示" android:key="@string/pref_key_wb_code_hint" android:defaultValue="true" />
-    <Preference android:title="管理个性短语" android:key="@string/pref_key_phrase" android:summary="编辑　导入" />
-    <PreferenceScreen android:title="管理符号文件" android:key="@string/pref_key_fuhao_files_root">
-        <Preference android:title="导出符号文件" android:key="@string/pref_key_expt3" />
-        <Preference android:title="导入符号文件" android:key="@string/pref_key_impt3" />
-        <Preference android:title="恢复默认符号文件" android:key="@string/pref_key_reset3" />
+    <com.baidu.input.pref.WbPref android:title="Настройки Уби" android:key="@string/pref_key_wbmode" />
+    <CheckBoxPreference android:title="Подсказки по Уби" android:key="@string/pref_key_wb_code_hint" android:defaultValue="true" />
+    <Preference android:title="Управление личными фразами" android:key="@string/pref_key_phrase" android:summary="编辑　导入" />
+    <PreferenceScreen android:title="Файлы символов" android:key="@string/pref_key_fuhao_files_root">
+        <Preference android:title="Экспортировать" android:key="@string/pref_key_expt3" />
+        <Preference android:title="Импортировать" android:key="@string/pref_key_impt3" />
+        <Preference android:title="Сбросить настройки" android:key="@string/pref_key_reset3" />
     </PreferenceScreen>
-    <PreferenceScreen android:title="管理自定义输入方案" android:key="@string/pref_key_custom_config_case_root">
-        <Preference android:title="导出自定义输入方案" android:key="@string/pref_key_expt4" />
-        <Preference android:title="导入自定义输入方案" android:key="@string/pref_key_impt4" />
-        <Preference android:title="删除自定义输入方案" android:key="@string/pref_key_reset4" />
+    <PreferenceScreen android:title="Пользовательские схемы ввода" android:key="@string/pref_key_custom_config_case_root">
+        <Preference android:title="Экспортировать" android:key="@string/pref_key_expt4" />
+        <Preference android:title="Импортировать" android:key="@string/pref_key_impt4" />
+        <Preference android:title="Сбросить настройки" android:key="@string/pref_key_reset4" />
     </PreferenceScreen>
     <CheckBoxPreference android:title="@string/smart_predict_title" android:key="@string/pref_key_smart_reply" android:defaultValue="false" />
     <CheckBoxPreference android:title="@string/sentence_predict_title" android:key="@string/pref_key_sentence_prediction" android:defaultValue="true" />
-    <CheckBoxPreference android:title="启用搜索建议" android:key="@string/pref_key_sug_local_switch" android:defaultValue="true" android:summaryOn="开启搜索建议功能" android:summaryOff="关闭搜索建议功能" />
-    <CheckBoxPreference android:title="启用智能搜索" android:key="@string/pref_key_smart_search_switch" android:defaultValue="true" android:summaryOn="开启智能搜索" android:summaryOff="关闭智能搜索" />
-    <CheckBoxPreference android:title="启用唯一搜索" android:key="@string/pref_key_unique_result_switch" android:defaultValue="true" android:summaryOn="开启唯一搜索功能" android:summaryOff="关闭唯一搜索功能" />
-    <Preference android:title="恢复默认设置" android:key="@string/pref_key_default_setting" android:summary="一键恢复所有设置项" />
+    <CheckBoxPreference android:title="Поисковые подсказки" android:key="@string/pref_key_sug_local_switch" android:defaultValue="true" android:summaryOn="Подсказки включены" android:summaryOff="Подсказки отключены" />
+    <CheckBoxPreference android:title="Умный поиск" android:key="@string/pref_key_smart_search_switch" android:defaultValue="true" android:summaryOn="Поиск включён" android:summaryOff="Поиск отключён" />
+    <CheckBoxPreference android:title="Уникальный поиск" android:key="@string/pref_key_unique_result_switch" android:defaultValue="true" android:summaryOn="Поиск включён" android:summaryOff="Поиск отключён" />
+    <Preference android:title="Сбросить настройки" android:key="@string/pref_key_default_setting" android:summary="Быстрый сброс всех настроек" />
 </PreferenceScreen>
