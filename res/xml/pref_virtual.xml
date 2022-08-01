@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_virtual" android:key="@string/pref_key_virtual" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/candsize" android:key="@string/pref_key_CANDWORDSIZE" />
+    <Preference android:title="@string/front_acgfont_access" android:key="@string/pref_key_acgfont" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/nineonesynops" android:title="桌面主题同步皮肤设置" android:key="@string/pref_key_91SYN" android:defaultValue="0" android:entryValues="@array/listvalue3" />
+    <CheckBoxPreference android:title="浮动显示主题特效" android:key="@string/pref_key_POPICON" android:defaultValue="true" />
+    <Preference android:title="悬浮键盘透明度" android:key="@string/pref_key_FLOATMODE" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/sliding" android:title="左右滑动切换设置" android:key="@string/pref_key_SLIDINGSETTING" android:defaultValue="1" android:entryValues="@array/listvalue3" />
+    <com.baidu.input.pref.MiniModelPref android:title="单手模式设置" android:key="@string/pref_key_MINIMODE" />
+    <CheckBoxPreference android:title="按下效果" android:key="@string/pref_key_showpress" android:defaultValue="true" />
+    <CheckBoxPreference android:title="划线效果" android:key="@string/pref_key_showdragline" android:defaultValue="true" />
+    <CheckBoxPreference android:title="按键字符提示" android:key="@string/pref_key_showhint" android:defaultValue="true" />
+    <CheckBoxPreference android:title="中文面板输入显示" android:key="@string/pref_key_SOFTINPUT" android:defaultValue="true" android:summaryOn="置于面板顶部" android:summaryOff="下划线显示" />
+    <Preference android:title="@string/vibrate" android:key="@string/pref_key_VIBRATE" />
+    <CheckBoxPreference android:title="空格键选择联想词" android:key="@string/pref_key_SPACE2LX" android:defaultValue="false" />
+    <CheckBoxPreference android:title="全拼键盘提示功能" android:key="@string/pref_key_KEYMASK" android:defaultValue="false" android:summaryOn="全键盘全拼输入时，按键明暗提示" />
+    <CheckBoxPreference android:title="启用26键符号键盘" android:key="@string/pref_key_enable_sym26_panel" android:defaultValue="true" />
+    <CheckBoxPreference android:title="横屏时启用全屏模式" android:key="@string/pref_key_EXVIEW" android:defaultValue="true" />
+</PreferenceScreen>

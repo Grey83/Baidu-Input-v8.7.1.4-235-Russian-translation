@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_general" android:key="@string/pref_key_general_setting" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="基本设置" android:key="@string/pref_key_basic_settings_root">
+        <ListPreference android:entries="@array/wordassco" android:title="词语联想" android:key="@string/pref_key_wordassco" android:defaultValue="1" android:dialogTitle="选择联想模式" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.EmojiSwitchPref android:persistent="false" android:title="表情" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="拼音设置" android:key="@string/pref_key_pinyin_settings_root">
+        <CheckBoxPreference android:title="启用模糊音" android:key="@string/pref_key_MOHU" android:defaultValue="false" />
+        <PreferenceScreen android:title="模糊音设置" android:key="@string/pref_key_mohuyin_settings_root" android:dependency="MOHU">
+            <PreferenceCategory android:title="辅音" android:key="@string/pref_key_fuyin_settings_root">
+                <CheckBoxPreference android:title="ch = c" android:key="@string/pref_key_MH0" android:defaultValue="true" />
+                <CheckBoxPreference android:title="sh = s" android:key="@string/pref_key_MH1" android:defaultValue="true" />
+                <CheckBoxPreference android:title="zh = z" android:key="@string/pref_key_MH2" android:defaultValue="true" />
+                <CheckBoxPreference android:title="k = g" android:key="@string/pref_key_MH3" android:defaultValue="false" />
+                <CheckBoxPreference android:title="f = h" android:key="@string/pref_key_MH4" android:defaultValue="false" />
+                <CheckBoxPreference android:title="n = l" android:key="@string/pref_key_MH5" android:defaultValue="false" />
+                <CheckBoxPreference android:title="r = l" android:key="@string/pref_key_MH11" android:defaultValue="false" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="元音" android:key="@string/pref_key_yuanyin_settings_root">
+                <CheckBoxPreference android:title="ang = an" android:key="@string/pref_key_MH6" android:defaultValue="true" />
+                <CheckBoxPreference android:title="eng = en" android:key="@string/pref_key_MH7" android:defaultValue="true" />
+                <CheckBoxPreference android:title="ing = in" android:key="@string/pref_key_MH8" android:defaultValue="true" />
+                <CheckBoxPreference android:title="iang = ian" android:key="@string/pref_key_MH9" android:defaultValue="false" />
+                <CheckBoxPreference android:title="uang = uan" android:key="@string/pref_key_MH10" android:defaultValue="false" />
+                <CheckBoxPreference android:title="an = ai" android:key="@string/pref_key_MH12" android:defaultValue="false" />
+                <CheckBoxPreference android:title="un = ong" android:key="@string/pref_key_MH13" android:defaultValue="false" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="混合音" android:key="@string/pref_key_mix_fuzzy_settings_root">
+                <CheckBoxPreference android:title="hui = fei" android:key="@string/pref_key_MH16" android:defaultValue="false" />
+                <CheckBoxPreference android:title="huang = wang" android:key="@string/pref_key_MH17" android:defaultValue="false" />
+                <CheckBoxPreference android:title="feng = hong" android:key="@string/pref_key_MH18" android:defaultValue="false" />
+                <CheckBoxPreference android:title="fu = hu" android:key="@string/pref_key_MH19" android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <CheckBoxPreference android:title="繁体输入" android:key="@string/pref_key_BIG5" android:defaultValue="false" />
+        <CheckBoxPreference android:title="纠错提示" android:key="@string/pref_key_KP_TIP_SHOW" android:defaultValue="true" />
+        <CheckBoxPreference android:title="中英混输" android:key="@string/pref_key_MIXENCH_SENTENCE" android:defaultValue="true" />
+        <CheckBoxPreference android:title="五笔拼音混输" android:key="@string/pref_key_WBPY" android:defaultValue="true" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/yunshuru" android:title="云输入" android:key="@string/pref_key_YUNSHURU" android:defaultValue="2" android:entryValues="@array/yunshuru_value" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/py26listFilter" android:title="全键筛选模式" android:key="@string/pref_key_PY26LISTFILTER" android:defaultValue="1" android:entryValues="@array/listvalue2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="英文设置" android:key="@string/pref_key_en_settings_root">
+        <CheckBoxPreference android:title="开启传统模式" android:key="@string/pref_key_T9" android:defaultValue="true" android:summaryOn="字母模式时使用传统模式" android:summaryOff="字母模式时使用点划模式" />
+        <CheckBoxPreference android:title="单词追加空格" android:key="@string/pref_key_addspace" android:defaultValue="false" android:summaryOn="英文单词后自动加空格" android:summaryOff="" />
+        <CheckBoxPreference android:title="句首字母自动大写" android:key="@string/pref_key_cap_first_word" android:summary="英文模式自动大写句首字母" android:defaultValue="false" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/ensort" android:title="英文单词排序方式" android:key="@string/pref_key_ENSORT" android:defaultValue="0" android:dialogTitle="选择排序方式" android:entryValues="@array/listvalue3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="手写设置" android:key="@string/pref_key_handwriting">
+        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="竖屏手写模式" android:key="@string/pref_key_PortHWRecMode" android:defaultValue="1" android:dialogTitle="@string/port_hwRecMode" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="横屏手写模式" android:key="@string/pref_key_LandHWRecMode" android:defaultValue="0" android:dialogTitle="@string/land_hwRecMode" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.SeekBarPref android:title="识别速度" android:key="@string/pref_key_HWspeed" android:defaultValue="2" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/CLRNAME" android:title="笔刷颜色" android:key="@string/pref_key_HWcolorIdx" android:defaultValue="0" android:entryValues="@array/CLRINDEX" />
+        <com.baidu.input.pref.SeekBarPref android:title="笔刷粗细" android:key="@string/pref_key_HWbrush" android:defaultValue="2" />
+        <CheckBoxPreference android:title="启用笔锋效果" android:key="@string/pref_key_TRACEOPT1" android:defaultValue="true" />
+        <CheckBoxPreference android:title="启用笔锋效果" android:key="@string/pref_key_TRACEOPT2" android:defaultValue="false" />
+        <Preference android:title="键盘手写设置" android:key="@string/pref_key_HKChooser" />
+        <CheckBoxPreference android:title="光标控制" android:key="@string/pref_key_ARROWCTRL" android:summary="应用于全屏手写" android:defaultValue="false" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/wordassco" android:title="手写联想" android:key="@string/pref_key_HWLIAN" android:defaultValue="2" android:dialogTitle="选择联想模式" android:entryValues="@array/listvalue3" />
+        <CheckBoxPreference android:title="手写注音" android:key="@string/pref_key_handwrite_pinyin_annotation" android:defaultValue="false" android:summaryOn="所有字标注拼音" android:summaryOff="生僻字标注拼音" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="语音输入" android:key="@string/pref_key_yuyin_settings_root">
+        <CheckBoxPreference android:title="长按空格语音输入" android:key="@string/pref_key_spaceVoice" android:defaultValue="true" />
+        <CheckBoxPreference android:title="智能场景语音" android:key="@string/pref_key_voiceBarSwitch" android:defaultValue="true" />
+        <CheckBoxPreference android:title="极简语音模式" android:key="@string/pref_key_tiny_voice_entry_bar_switch" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/auto_bd_search" android:key="@string/pref_key_auto_voice_bd_search_switch" android:defaultValue="false" android:summaryOn="@string/auto_bd_search_enable" android:summaryOff="@string/auto_bd_search_disable" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/punctuationMode" android:title="语音标点设置" android:key="@string/pref_key_punctuation2" android:defaultValue="2" android:entryValues="@array/punctuation_value" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/offlineVoiceMode" android:title="离线语音设置" android:key="pref_key_offline_voice_scene" android:defaultValue="0" android:entryValues="@array/offline_voice_value" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="笔画输入">
+        <CheckBoxPreference android:title="笔画字形优先" android:key="@string/pref_key_BHCUT" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

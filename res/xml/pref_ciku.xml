@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_ciku" android:key="@string/pref_key_ciku" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:title="通讯录词库" android:key="@string/pref_key_CIKULIST">
+        <Preference android:title="同步通讯录词库" android:key="@string/pref_key_impt_contact" />
+        <CheckBoxPreference android:title="自动同步通讯录到词库" android:key="@string/pref_key_CIKUAUTOIMPORT" android:defaultValue="@bool/is_open" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="本地用户词管理" android:key="@string/pref_key_local_user_ciku_root">
+        <PreferenceScreen android:title="中文用户词管理" android:key="@string/pref_key_CIKULIST">
+            <Preference android:title="二字词" android:key="@string/pref_key_CIKULISTPREF2" />
+            <Preference android:title="三字词" android:key="@string/pref_key_CIKULISTPREF3" />
+            <Preference android:title="四字词" android:key="@string/pref_key_CIKULISTPREF4" />
+            <Preference android:title="五字词" android:key="@string/pref_key_CIKULISTPREF5" />
+            <Preference android:title="六字词" android:key="@string/pref_key_CIKULISTPREF6" />
+            <Preference android:title="七字词" android:key="@string/pref_key_CIKULISTPREF7" />
+            <Preference android:title="八字词" android:key="@string/pref_key_CIKULISTPREF8" />
+        </PreferenceScreen>
+        <Preference android:title="英文用户词管理" android:key="@string/pref_key_CIKULISTPREF20" />
+        <Preference android:title="用户词智能清理" android:key="@string/pref_key_CIKULISTCLEAN" />
+    </PreferenceScreen>
+    <Preference android:title="词库备份与恢复" android:key="@string/pref_key_CIKUBACKUPRECOVER" />
+    <Preference android:title="云优化" android:key="@string/pref_key_CLOUDOPTIMIZATION" android:summary="联网优化词库使输入更精准" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/freqname" android:title="流行词更新周期" android:key="@string/pref_key_UPFREQ_5_2" android:defaultValue="0" android:entryValues="@array/freqvalue" />
+    <Preference android:title="恢复默认词库" android:key="@string/pref_key_reset1" />
+</PreferenceScreen>

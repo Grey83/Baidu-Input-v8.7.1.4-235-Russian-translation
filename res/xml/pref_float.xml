@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/pref_key_floatwindow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/front_quick_note" android:key="@string/pref_key_front_quick_note">
+        <Preference android:title="@string/front_mynotes" android:key="@string/pref_key_front_mynotes" />
+        <CheckBoxPreference android:title="开启桌面浮窗" android:key="@string/pref_key_float_allow_icon" android:defaultValue="@bool/is_open" />
+        <CheckBoxPreference android:title="屏幕侧滑打开浮窗" android:key="@string/pref_key_float_allow_fling" android:defaultValue="@bool/is_open" />
+        <ListPreference android:entries="@array/floatwindow_positions" android:title="浮窗位置" android:key="@string/pref_key_float_stick_left" android:defaultValue="false" android:entryValues="@array/floatwindow_position_indexs" />
+    </PreferenceCategory>
+    <Preference android:title="MIUI下如何开启" android:key="@string/pref_key_float_open_miui" />
+    <PreferenceCategory android:title="@string/front_note_backup_recovery" android:key="@string/pref_key_float_note_backup_recovery">
+        <com.baidu.input.pref.NoteBackupPref android:title="@string/front_note_backup" android:key="@string/pref_key_float_note_backup" />
+        <com.baidu.input.pref.NoteRecoverPref android:title="@string/front_note_recovery" android:key="@string/pref_key_float_note_recovery" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/front_quick_notification" android:key="@string/pref_key_front_quick_notification">
+        <CheckBoxPreference android:title="开启通知栏剪贴板 " android:key="@string/pref_key_float_allow_notification" android:defaultValue="@bool/is_open" />
+        <CheckBoxPreference android:title="显示通知栏输入法图标" android:key="@string/pref_key_float_input_status_icon" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

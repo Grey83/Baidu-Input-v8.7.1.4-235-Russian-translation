@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_cloud_backup" android:key="@string/pref_key_cloud_backup" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="网络用户词管理" android:key="@string/pref_key_cloud_user_ciku_root">
+        <com.baidu.input.pref.SynNetWorkCiKuPref android:title="立即同步用户词" android:key="@string/pref_key_CIKUNETWORKSYN" />
+        <com.baidu.input.pref.NetCikuSetPref android:title="同步用户词设置" android:key="@string/pref_key_CIKUPCIMPORT" />
+        <CheckBoxPreference android:title="WiFi下自动同步用户词" android:key="@string/pref_key_auto_syn_userciku_in_wifi" android:defaultValue="true" />
+        <com.baidu.input.pref.CleanNetWorkCiKuPref android:title="清空用户词" android:key="@string/pref_key_CIKUNETWORKCLEAN" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cloud_bakup_settings" android:key="@string/pref_key_cloud_backup_settings_root">
+        <com.baidu.input.pref.SettingsBackupPref android:title="@string/bakup_settings" android:key="@string/pref_key_BACKUPSETTINGS5_2" />
+        <com.baidu.input.pref.SettingsRecoveryPref android:title="@string/recovery_settings" android:key="@string/pref_key_RECOVERYSETTINGS5_2" />
+        <com.baidu.input.pref.SettingsClearPref android:title="@string/clear_settings" android:key="@string/pref_key_CLEARSETTINGS5_2" />
+    </PreferenceCategory>
+</PreferenceScreen>
