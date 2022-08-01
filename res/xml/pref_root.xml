@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/settings_login" android:key="@string/pref_key_account_manager" android:summary="登录    注册" baidu:entriesTitle="@array/login_domian_title_entries" baidu:entryTitleValues="@array/login_domian_title_entries_value" />
-    <Preference android:title="语言及输入方式设置" android:key="@string/pref_key_LANGUAGE" android:summary="语言    输入方式" />
+    <Preference android:title="@string/settings_login" android:key="@string/pref_key_account_manager" android:summary="Войти   Зарегистрироваться" baidu:entriesTitle="@array/login_domian_title_entries" baidu:entryTitleValues="@array/login_domian_title_entries_value" />
+    <Preference android:title="Язык и метод ввода" android:key="@string/pref_key_LANGUAGE" android:summary="Язык, метод ввода" />
     <Preference android:title="@string/settings_general" android:key="@string/pref_key_general_setting" android:summary="模糊音    云输入    拼音    手写    语音" />
     <Preference android:title="@string/settings_virtual" android:key="@string/pref_key_virtual" android:summary="候选字体大小    左右滑动切换    按键音" />
     <Preference android:title="@string/settings_hard_keyboard" android:key="@string/pref_key_hard_keyboard" android:summary="开关    键盘类型    字体大小" />
