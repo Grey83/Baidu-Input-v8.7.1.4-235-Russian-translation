@@ -10,6 +10,6 @@
     <Preference android:title="Лицензии открытого ПО" android:key="@string/pref_key_OPEN_SOURCE" />
     <Preference android:title="О программе" android:key="@string/pref_key_about" />
     <PreferenceCategory android:title="Перевёл на русский язык:">
-        <Preference android:title="Grey83" android:summary="https://github.com/Grey83"/>
+        <Preference android:title="Grey83" android:summary="https://github.com/Grey83" />
     </PreferenceCategory>
 </PreferenceScreen>

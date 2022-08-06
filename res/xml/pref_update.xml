@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
     <Preference android:title="Обновление Baidu IME" android:key="@string/pref_key_IMEUPDATE" />
     <CheckBoxPreference android:title="Автоматическая проверка обновлений" android:key="@string/pref_key_AUTOUP" android:defaultValue="true" />
-    <CheckBoxPreference android:title="Автоматическое скачивание через Wi-Fi" android:key="@string/pref_key_WIFI_AUTO_DOWN" android:dependency="AUTOUP" android:defaultValue="true" />
+    <CheckBoxPreference android:title="Автоматически скачивать через Wi-Fi" android:key="@string/pref_key_WIFI_AUTO_DOWN" android:dependency="AUTOUP" android:defaultValue="true" />
 </PreferenceScreen>

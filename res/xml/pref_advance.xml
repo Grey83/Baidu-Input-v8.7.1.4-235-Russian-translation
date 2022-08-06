@@ -16,7 +16,7 @@
     </PreferenceScreen>
     <com.baidu.input.pref.WbPref android:title="Настройки Уби" android:key="@string/pref_key_wbmode" />
     <CheckBoxPreference android:title="Подсказки по Уби" android:key="@string/pref_key_wb_code_hint" android:defaultValue="true" />
-    <Preference android:title="Управление личными фразами" android:key="@string/pref_key_phrase" android:summary="编辑　导入" />
+    <Preference android:title="Управление личными фразами" android:key="@string/pref_key_phrase" />
     <PreferenceScreen android:title="Файлы символов" android:key="@string/pref_key_fuhao_files_root">
         <Preference android:title="Экспортировать" android:key="@string/pref_key_expt3" />
         <Preference android:title="Импортировать" android:key="@string/pref_key_impt3" />

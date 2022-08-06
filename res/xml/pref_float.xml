@@ -2,7 +2,7 @@
 <PreferenceScreen android:key="@string/pref_key_floatwindow"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/front_quick_note" android:key="@string/pref_key_front_quick_note">
-        <Preference android:title="@string/front_mynotes" android:key="@string/pref_key_front_mynotes" />
+        <Preference android:title="Мои заметки" android:key="@string/pref_key_front_mynotes" />
         <CheckBoxPreference android:title="Открыть плавающее окно" android:key="@string/pref_key_float_allow_icon" android:defaultValue="@bool/is_open" />
         <CheckBoxPreference android:title="Открытие окна свайпом" android:key="@string/pref_key_float_allow_fling" android:defaultValue="@bool/is_open" />
         <ListPreference android:entries="@array/floatwindow_positions" android:title="Расположение окна" android:key="@string/pref_key_float_stick_left" android:defaultValue="false" android:entryValues="@array/floatwindow_position_indexs" />

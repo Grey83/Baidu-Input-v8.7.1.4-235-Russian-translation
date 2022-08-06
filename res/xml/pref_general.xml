@@ -48,7 +48,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="Рукописный ввод" android:key="@string/pref_key_handwriting">
         <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="Портретная ориентация" android:key="@string/pref_key_PortHWRecMode" android:defaultValue="1" android:dialogTitle="@string/port_hwRecMode" android:entryValues="@array/listvalue3" />
-        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="Ландшафтная ориентация" android:key="@string/pref_key_LandHWRecMode" android:defaultValue="0" android:dialogTitle="@string/land_hwRecMode" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="Альбомная ориентация" android:key="@string/pref_key_LandHWRecMode" android:defaultValue="0" android:dialogTitle="@string/land_hwRecMode" android:entryValues="@array/listvalue3" />
         <com.baidu.input.pref.SeekBarPref android:title="Скорость распознавания" android:key="@string/pref_key_HWspeed" android:defaultValue="2" />
         <com.baidu.input.pref.CustListPref android:entries="@array/CLRNAME" android:title="Цвет кисти" android:key="@string/pref_key_HWcolorIdx" android:defaultValue="0" android:entryValues="@array/CLRINDEX" />
         <com.baidu.input.pref.SeekBarPref android:title="Толщина кисти" android:key="@string/pref_key_HWbrush" android:defaultValue="2" />
