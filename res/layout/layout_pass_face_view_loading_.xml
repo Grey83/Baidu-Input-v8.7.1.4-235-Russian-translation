@@ -6,5 +6,5 @@
         <View android:id="@id/second_dto" android:background="@drawable/pass_liveness_dto_white" android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
         <View android:id="@id/third_dto" android:background="@drawable/pass_liveness_dto_white" android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
     </LinearLayout>
-    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="加载中" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Загрузка" />
 </LinearLayout>

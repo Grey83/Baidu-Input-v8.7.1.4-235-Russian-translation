@@ -537,16 +537,16 @@
         <item>文</item>
         <item>中</item>
         <item>Анг</item>
-        <item>日</item>
-        <item>韩</item>
-        <item>法</item>
-        <item>西</item>
+        <item>Яп</item>
+        <item>Кор</item>
+        <item>Фр</item>
+        <item>Исп</item>
         <item>泰</item>
         <item>阿</item>
         <item>Рус</item>
         <item>葡</item>
-        <item>德</item>
-        <item>意</item>
+        <item>Нем</item>
+        <item>Ит</item>
         <item>希</item>
         <item>荷</item>
         <item>波</item>
@@ -578,27 +578,27 @@
         <item>Буф. обмена</item>
     </string-array>
     <string-array name="accessibility_keyboards">
-        <item>用户自定义面板</item>
-        <item>笔画面板</item>
-        <item>五笔9键</item>
-        <item>五笔26键</item>
-        <item>英文9键</item>
-        <item>英文9键大写</item>
-        <item>英文26键</item>
-        <item>英文26键大写</item>
-        <item>数字9键</item>
-        <item>数字26键</item>
-        <item>拼音9键</item>
-        <item>拼音26键</item>
-        <item>半屏手写</item>
-        <item>全屏手写</item>
-        <item>更多面板</item>
-        <item>中文大写</item>
-        <item>注音面板</item>
-        <item>仓颉面板</item>
-        <item>表情面板</item>
-        <item>特殊框面板</item>
-        <item>特殊框大写面板</item>
+        <item>Пользовательская</item>
+        <item>Перьевой ввод</item>
+        <item>Уби 9кл</item>
+        <item>Уби 26кл</item>
+        <item>Английский 9кл</item>
+        <item>Английский 9кл капс</item>
+        <item>Английский 26кл</item>
+        <item>Английский 26кл капс</item>
+        <item>Цифры 9кл</item>
+        <item>Цифры 26кл</item>
+        <item>Пиньинь 9кл</item>
+        <item>Пиньинь 26кл</item>
+        <item>Рукописный, пол экрана</item>
+        <item>Рукописный, весь экран</item>
+        <item>Другие панели</item>
+        <item>Китайский капс</item>
+        <item>Чжуинь</item>
+        <item>Цанцзе</item>
+        <item>Смайлы</item>
+        <item>Спец. панель</item>
+        <item>Спец. панель капс</item>
     </string-array>
     <string-array name="accessibility_tips">
         <item>小写</item>
@@ -752,7 +752,7 @@
 "</item>
         <item>Информация</item>
         <item>Словарь</item>
-        <item>名字：</item>
+        <item>Рекомендуемая загрузка</item>
         <item>Название:</item>
         <item>Автор:</item>
         <item>Версия:</item>
@@ -768,7 +768,7 @@
         <item>Плохой сигнал, попытайтесь позже试</item>
         <item>Не удалось установить :(</item>
         <item>Обновление не требуется!</item>
-        <item>：</item>
+        <item>:</item>
         <item>Другие загрузки</item>
         <item>Установка завершена</item>
         <item>Не установлен</item>
@@ -992,45 +992,45 @@
         <item>清除用户数据</item>
     </string-array>
     <string-array name="day">
-        <item>一</item>
-        <item>二</item>
-        <item>三</item>
-        <item>四</item>
-        <item>五</item>
-        <item>六</item>
-        <item>日</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
     </string-array>
     <string-array name="daysOfAlmanac">
-        <item>初一</item>
-        <item>初二</item>
-        <item>初三</item>
-        <item>初四</item>
-        <item>初五</item>
-        <item>初六</item>
-        <item>初七</item>
-        <item>初八</item>
-        <item>初九</item>
-        <item>初十</item>
-        <item>十一</item>
-        <item>十二</item>
-        <item>十三</item>
-        <item>十四</item>
-        <item>十五</item>
-        <item>十六</item>
-        <item>十七</item>
-        <item>十八</item>
-        <item>十九</item>
-        <item>二十</item>
-        <item>廿一</item>
-        <item>廿二</item>
-        <item>廿三</item>
-        <item>廿四</item>
-        <item>廿五</item>
-        <item>廿六</item>
-        <item>廿七</item>
-        <item>廿八</item>
-        <item>廿九</item>
-        <item>三十</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
     </string-array>
     <string-array name="deldialog">
         <item>手机号码</item>
@@ -1513,7 +1513,7 @@
         <item>对文字进行复制、粘贴等操作</item>
         <item>edit</item>
         <item>表情</item>
-        <item>颜文字、鲸鱼体、emoji及更多表情</item>
+        <item>Каомодзи, эмодзи и многое другое</item>
         <item>emoji</item>
         <item>候选条管理</item>
         <item>管理候选条功能</item>
@@ -2477,9 +2477,9 @@
         <item>#ff61dadd</item>
     </array>
     <string-array name="mix">
-        <item>Emoji、颜文字候选</item>
-        <item>表情联想</item>
-        <item>AR表情加入候选</item>
+        <item>Эмодзи, кандидаты на эмодзи</item>
+        <item>Ассоциация выражений</item>
+        <item>Выражение AR для присоединения к кандидатам</item>
     </string-array>
     <string-array name="monthOfAlmanac">
         <item>Янв</item>
@@ -2533,8 +2533,8 @@
         <item>个性短语已存在</item>
     </string-array>
     <string-array name="networksyn">
-        <item>同步全部用户词</item>
-        <item>仅同步手机用户词</item>
+        <item>Синхронизировать все слова пользователя</item>
+        <item>Синхронизировать только слова пользователя телефона</item>
     </string-array>
     <string-array name="nineonesynops">
         <item>Всегда</item>
@@ -2682,8 +2682,8 @@
         <item>0</item>
     </string-array>
     <string-array name="py26listFilter">
-        <item>拼音全键下使用笔画筛选</item>
-        <item>拼音全键下使用拼音筛选</item>
+        <item>Использовать Бихуа</item>
+        <item>Использовать Пиньинь</item>
     </string-array>
     <string-array name="rubbish">
         <item>裁蹲绋蹲睬</item>
@@ -2771,9 +2771,9 @@
     </string-array>
     <string-array name="simulation_keyboard_token_name">
         <item>CHERRY MX9.0</item>
-        <item>CHERRY经典黑</item>
-        <item>CHERRY 8.0红白</item>
-        <item>CHERRY 8.0纯白</item>
+        <item>CHERRY классическая чёрная</item>
+        <item>CHERRY 8.0 красно-белая</item>
+        <item>CHERRY 8.0 белая</item>
     </string-array>
     <string-array name="skin_tab_list">
         <item>skin_local</item>
@@ -2967,13 +2967,13 @@
         <item>Произведено Baidu</item>
         <item>Copyright 2010–2019</item>
         <item>Настройки рукописного ввода на клавиатуре</item>
-        <item>安装在SD卡中，可能会导致重启切换回系统输入法，建议将输入法移至内存中，避免此问题</item>
+        <item>Установка на SD-карту может привести к тому, что при перезагрузке перезагрузка вернется к системному методу ввода. Во избежание этой проблемы рекомендуется переместить метод ввода во внутреннюю память</item>
         <item>Версия</item>
         <item>Соглашение об обслуживании</item>
-        <item>解决方案：</item>
-        <item>■ 录音设备可能被其它APP占用，请关闭应用或者重启设备</item>
-        <item>■ 进入应用管理权限设置，打开语音相关权限</item>
-        <item>提示 下一次升级时，请勾选语音相关权限</item>
+        <item>Решение:</item>
+        <item>■ Записывающее устройство может быть занято другими приложениями, закройте приложение или перезагрузите устройство</item>
+        <item>■ Ввойдите в настройки разрешений для приложений и включите разрешения, связанные с голосовой связью</item>
+        <item>Запрос на обновление, пожалуйста, проверьте разрешения, связанные с голосовой связью</item>
     </string-array>
     <string-array name="vocabulary_tab_list">
         <item>vocabulary_fresh_word</item>
@@ -2992,11 +2992,11 @@
         <item>Отключено</item>
     </string-array>
     <string-array name="wx_session_hint">
-        <item>完成以下三步，即可分享表情哦~</item>
-        <item>选择联系人</item>
-        <item>点击分享</item>
-        <item>返回百度输入法</item>
-        <item>知道了</item>
+        <item>Выполните следующие три шага, чтобы поделиться эмодзи</item>
+        <item>Выберите контакт</item>
+        <item>Нажмите "поделиться"</item>
+        <item>Вернуться к Baidu IME</item>
+        <item>Понятно</item>
     </string-array>
     <string-array name="yunshuru">
         <item>Только через Wi-Fi</item>

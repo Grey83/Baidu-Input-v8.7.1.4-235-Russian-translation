@@ -35,7 +35,7 @@
         </PreferenceScreen>
         <CheckBoxPreference android:title="Традиционный ввод" android:key="@string/pref_key_BIG5" android:defaultValue="false" />
         <CheckBoxPreference android:title="Подсказки ввода" android:key="@string/pref_key_KP_TIP_SHOW" android:defaultValue="true" />
-        <CheckBoxPreference android:title="Смешанный кит./англ. ввод" android:key="@string/pref_key_MIXENCH_SENTENCE" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Смешанный китайско-английский ввод" android:key="@string/pref_key_MIXENCH_SENTENCE" android:defaultValue="true" />
         <CheckBoxPreference android:title="Смешанный ввод Пиньинь/Уби" android:key="@string/pref_key_WBPY" android:defaultValue="true" />
         <com.baidu.input.pref.CustListPref android:entries="@array/yunshuru" android:title="Онлайн предугадывание ввода" android:key="@string/pref_key_YUNSHURU" android:defaultValue="2" android:entryValues="@array/yunshuru_value" />
         <com.baidu.input.pref.CustListPref android:entries="@array/py26listFilter" android:title="Фильтр списка с Пиньинь 26 клавиш" android:key="@string/pref_key_PY26LISTFILTER" android:defaultValue="1" android:entryValues="@array/listvalue2" />
